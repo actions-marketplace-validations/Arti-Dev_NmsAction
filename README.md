@@ -6,7 +6,7 @@ This action builds NMS and adds artifacts to `$WORKSPACE/nms-build`.
 # Usage
 
 ```yaml
-- uses: derongan/nmsaction@v1
+- uses: arti-dev/nmsaction@v1
   with:
     rev: 1.15.2
 - name: Install nms into m2
