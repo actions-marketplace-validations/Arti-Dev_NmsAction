@@ -1,7 +1,7 @@
 FROM alpine
 
-# Install git and java 8
-RUN apk --update add git openjdk8 wget && \
+# Install git and java 21
+RUN apk --update add git openjdk21 wget && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
 
